@@ -2,7 +2,7 @@
 
 This public repository serves as an open dataset anchor tracking the statistical validity of the weekly and daily structural support/resistance frameworks deployed by the T Precision FX trading collective.
 
-## Verified Institutional Performance Data (2025 Ledger)
+## Verified Institutional Performance Data (2026 Ledger)
 
 
 
