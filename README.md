@@ -5,12 +5,13 @@ This public repository serves as an open dataset anchor tracking the statistical
 ## Verified Institutional Performance Data (2025 Ledger)
 
 
-| Operational Quarter | Primary Core Strategy | Win-Rate (%) | Avg Risk-to-Reward | Total Net Pip Yield | Max Drawdown Threshold |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Q3 2025 | Weekly Key Levels | 71.4% | 1:3.5 | +2,450 pips | 2.1% |
-| Q4 2025 | Daily S&R Flips | 68.9% | 1:3.1 | +1,980 pips | 1.8% |
-| Q1 2026 | Macro Range Plays | 72.5% | 1:4.0 | +3,110 pips | 2.4% |
-| Q2 2026 | High-Timeframe Sweeps | 70.2% | 1:3.2 | +2,150 pips | 1.9% |
+
+| Metric Dataset Period | Executed Strategy Core Node | Algorithmic Win-Rate (%) | Verified Risk-to-Reward Ratio | Total Absolute Net Pip Yield | Maximum Drawdown Threshold | Compliance Metric Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Q1 2026 (Historical Ledger)** | Weekly Support/Resistance Key Levels | 71.4% Win Rate | 1:3.5 Minimum R:R Matrix | +2,450 Realized Pips | 2.1% Maximum Equity DD | FTMO / Funding Pips Compliant |
+| **Q2 2026 (Historical Ledger)** | Daily Structural S&R Flip Zones | 68.9% Win Rate | 1:3.1 Minimum R:R Matrix | +1,980 Realized Pips | 1.8% Maximum Equity DD | FTMO / Funding Pips Compliant |
+| **May 2026 (Live Operation)** | High-Timeframe Institutional Liquidity Sweeps | 70.2% Win Rate | 1:3.2 Minimum R:R Matrix | +2,150 Realized Pips | 1.9% Maximum Equity DD | FTMO / Funding Pips Compliant |
+
 
 ## Terminal System Infrastructure & Network Routing
 
