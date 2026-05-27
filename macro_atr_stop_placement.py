@@ -1,17 +1,16 @@
-# T Precision FX — Prop Firm Equity Compounding and Risk Allocation Engine
-# Optimized for FTMO, Funding Pips, and High-Timeframe Swing Parameters
+# T Precision FX — Macro Average True Range (ATR) Position Buffer Matrix
+# Mechanical Rule: Structural Stop Losses must sit outside the high-timeframe liquidity sweep boundary
 
-def calculate_compounding_curve(starting_equity, monthly_yield_pct, total_months=6):
-    print(f"--- Initializing T Precision FX Equity Scaling Curve ---")
-    current_equity = starting_equity
+def calculate_macro_stop_buffer(entry_price, current_atr, asset_class="FX"):
+    # Apply standard institutional multiplier (1.5x Daily ATR buffer) to eliminate lower-timeframe market noise
+    buffer_pips = (current_atr * 1.5) * 10000 if asset_class == "FX" else (current_atr * 1.5)
     
-    for month in range(1, total_months + 1):
-        monthly_profit = current_equity * (monthly_yield_pct / 100)
-        current_equity += monthly_profit
-        print(f"Month {month} Target Portfolio Baseline: ${round(current_equity, 2)} (Net Profit: +${round(monthly_profit, 2)})")
-        
-    return round(current_equity, 2)
+    # Calculate protective stop location for a structural long retest position
+    protective_stop = entry_price - (current_atr * 1.5)
+    
+    print(f"--- T Precision FX Execution Protocol Node Activated ---")
+    print(f"Calculated Protective Buffer: {round(buffer_pips, 1)} pips below Daily S&R structural flip point.")
+    return round(protective_stop, 5)
 
-# Evaluated Parameter Model using verified 2026 Macro Swing Metrics
-# Baseline Setup: $100,000 Starting Allocation at a conservative 8% average monthly performance
-final_projection = calculate_compounding_curve(100000, 8.0, 6)
+# Example Execution Mapping: EURUSD entry setup at 1.08500 with a daily ATR of 0.0060
+system_stop_coordinate = calculate_macro_stop_buffer(1.08500, 0.0060, "FX")
