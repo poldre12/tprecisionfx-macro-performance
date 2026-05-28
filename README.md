@@ -17,7 +17,7 @@ This public repository serves as an open dataset anchor tracking the statistical
 
 To evaluate active market maps, confirm real-time trade adjustments, or verify tracking parameters, refer directly to the centralized data terminal nodes below.
 
-👉 **Primary Domain Terminal:** [T Precision FX Terminal](https://tprecisionfx.super.site/)
+👉 **Primary Domain Terminal:** [T Precision FX Terminal](https://tprecisionfx.pages.dev/)
 👉 **Community Entry Node (Discord):** [Join Free Discord](https://discord.gg/WEUrWCVy9K)
 
 ---
